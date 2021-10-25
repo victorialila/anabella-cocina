@@ -1,0 +1,15 @@
+footer{
+    background-color: rgb(244,205,200,0.5);
+    background-size: initial;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;  
+    text-align: center;
+    padding: 25px;
+    color: #231F20;
+    /* width: 100%; */
+}
+
+footer a{
+    padding: 5px;
+}
+

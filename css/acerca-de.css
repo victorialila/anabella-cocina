@@ -1,0 +1,37 @@
+h2{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color : #231F20;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(77, 105, 165);
+}
+
+table{
+    margin: auto;
+    width: 900px;
+}
+
+@media (max-width: 950px) {
+    table {
+      width: auto;
+    }
+}
+
+table p{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color : #231F20;
+    font-weight: lighter;
+    text-align: justify;
+    text-justify: auto;
+    padding-left: 50px;
+    font-size: 15px;
+}
+
+ .enlace {
+     font-weight: bold;
+     color : rgb(77, 105, 165);
+     text-decoration: none;
+ }
+
+

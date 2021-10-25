@@ -1,0 +1,58 @@
+h2{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color : #231F20;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(77, 105, 165);
+}
+
+h3{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color : #231F20;
+    font-weight: lighter;
+    font-size: 25px;
+    text-align: center;
+    border: dashed rgb(77, 105, 165);
+ }
+
+
+ main{
+    margin: auto;
+    width: 700px;
+}
+
+@media (max-width: 750px) {
+    main {
+      width: auto;
+    }
+}
+
+p{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color : #231F20;
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-container > div {
+    padding: 10px 20px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color : #231F20;
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: center;
+}
+
+div a{
+    font-weight: bold;
+    color : rgb(77, 105, 165);
+}

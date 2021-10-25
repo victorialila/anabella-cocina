@@ -1,0 +1,104 @@
+.center{
+    text-align: center ;
+    margin: auto;
+    width: 900px;
+}
+
+@media (max-width: 950px) {
+    .center {
+      width: auto;
+    }
+}
+
+h2{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color : #231F20;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+    border: rgb(77, 105, 165) dashed;
+    padding: 10px;
+}
+
+h3{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color : #231F20;
+    font-weight: lighter;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 20px;
+    text-decoration-line: overline underline;
+    text-decoration-color: rgb(77, 105, 165);
+    padding: 1px;
+}
+
+.nom-receta {
+    text-align: center;   
+}
+
+div img {
+    border-radius: 30px;
+    width: 500px;
+    text-align: center;   
+}
+
+@media (max-width: 550px) {
+    div img {
+      width: 300px;
+    }
+}
+
+table{
+    margin-left: 20px;
+} 
+
+th{
+    background-color: rgb(244,205,200,0.3);
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color: #231F20;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+    border:rgb(244,205,200) solid;
+}
+
+td{
+    background-color: rgb(244,205,200,0.3);
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color: #231F20;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+.ol-receta{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color: #231F20;
+    font-size: 15px;
+    text-align: justify;
+    counter-reset: my-awesome-counter;
+}
+
+.ol-receta li{
+    padding: 10px;
+    counter-increment: my-awesome-counter;
+}
+
+.ol-receta li::marker{
+    content: counter(my-awesome-counter) ". ";
+    color: rgb(77, 105, 165);
+    font-weight: bold;
+}
+
+.ul-receta{
+    list-style-image: url(list-dot.png);
+
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color: #231F20;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.ul-receta li{
+    padding: 5px;
+}

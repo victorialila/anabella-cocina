@@ -1,0 +1,75 @@
+h2{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color : #231F20;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(77, 105, 165);
+}
+
+form, main div {
+    margin: auto;
+    width: 500px;
+}
+
+@media (max-width: 550px) {
+    form, main div {
+      width: auto;
+    }
+}
+
+form label{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color : #231F20;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+form input, textarea {
+    border: 1px rgb(77, 105, 165) solid;
+    padding: auto;
+    border-radius: 5px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color : #231F20;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+form input:focus, textarea:focus {
+    border: 1px rgb(77, 105, 165) solid;
+    background-color: rgb(77, 105, 165);
+    padding: auto;
+    border-radius: 5px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color : #231F20;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+
+
+.button {
+    background-color: rgb(244,205,200,0.5);
+    border: rgb(244,205,200,0.5) solid;
+    color: #231F20;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: grab;
+}
+
+div p{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color : #231F20;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.enlace{
+    font-weight: bold;
+    color : rgb(77, 105, 165);
+    
+}

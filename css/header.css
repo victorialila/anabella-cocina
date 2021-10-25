@@ -1,0 +1,124 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+/* menu de opciones */
+.menubar{
+    background-color: rgb(244,205,200,0.5);
+    background-size: initial;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    padding-top: 0px;
+    display: inline-block;
+}
+
+.menubar ul{
+    list-style-type: none;
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.menubar li{
+    display: inline-block;
+}
+
+.menubar li a{
+    color: #231F20;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.menubar li a:hover:not(.active){
+    background-color: rgb(244,205,200,0.5);
+    font-weight: bolder;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.active{
+    background-color: rgb(244,205,200,0.5);
+    font-weight: bolder;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+/* logo y título */
+
+.titulo{
+    background-color: rgb(244,205,200,0.5);
+    overflow: auto;
+}
+
+.logo{
+    /* display: inline-block; */
+    margin: 0.5rem;   
+    padding: auto;
+    float: left;
+    /* border: 2px fuchsia solid; */
+}
+
+.logo a img{
+    width: auto;
+    height: 10rem;
+}
+
+@font-face {
+    font-family: tomatoes;
+    src: url(fonts/tomatoes.ttf);
+}
+
+h1{    
+    font-family: tomatoes;
+    font-size: 3rem;
+    font-weight: lighter;
+    text-align: center;
+    color : #231F20;
+}    
+
+
+.nom-negocio{
+    /* border: 2px blue solid; */
+    width: 100%;
+}
+
+
+@media (max-width: 600px) {
+    .menubar li {
+        display: flex;
+        flex-direction: column;
+    }
+    .menubar{
+        float: left;
+    }
+    .menubar ul{
+        padding-right: 0;
+    }
+    .menubar li a:hover:not(.active){      
+        border-top-left-radius: 5px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 5px;
+    }
+    .active{        
+        border-top-left-radius: 5px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 5px;
+    }
+    .titulo{
+       min-height: 250px;
+    }
+    .logo{
+        float: none;
+        text-align: center;
+    }
+    .logo a img{
+        width: auto;
+        height: 8rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    
+}

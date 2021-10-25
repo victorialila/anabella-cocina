@@ -1,0 +1,74 @@
+body, header, main, footer {
+    border: 3px red solid;
+    min-height: 50px;
+    margin: 0.5rem;
+    min-width: 400px;
+}
+
+
+/* contenido ppal del sitio */
+main > div { 
+/* los div hijos directos de un main, se usa más "class" */
+    border: 2px blue solid;
+   
+}
+
+
+section{
+    border: 2px green solid;
+    min-height: fit-content;
+    margin: 0.5rem;
+}
+
+section article{
+    border: 2px purple solid;
+    margin: 0.5rem;
+    min-height: 20px;
+}
+
+
+/* logo y menu */
+.header-logo{
+    border: 2px green solid;
+    width: auto;
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.header-menubar {
+        border: 2px green solid;
+        /* padding: 0.5rem; */
+        left: auto;
+        position: relative; 
+        /* relativo al div con el logo */
+        top: auto;
+        width: auto;
+        display: inline-block;
+        margin: 0.5rem 0 0.5rem 1rem;
+}
+
+.header-menubar ul{
+    list-style: none;
+}
+
+.header-menubar li{
+    float: left;    
+    /* float hace que los elementos no se comorten en bloque */
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0.5rem 1.5rem 0 ;
+}
+
+.header-menubar a{
+    text-decoration: none;
+    color: black;
+}
+
+.header-menubar a:hover{
+    color: plum;
+}
+
+.header-menubar li a{
+    font-size: 1.2rem;
+    background: transparent;
+}
